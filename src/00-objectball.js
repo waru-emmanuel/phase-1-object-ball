@@ -189,7 +189,7 @@ function teamColors(input){
             var result;
              var result;
                for (var i = 0; i < players.length; i++) {
-                 if (players[i].highScore > highScoreSoFar) {
+                 if (players[i].mostPointsScored > pointsScored) {
              result = players[i];
              pointsScored = players[i].mostPointsScored;
              }
